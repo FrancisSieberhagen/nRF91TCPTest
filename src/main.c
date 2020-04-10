@@ -52,20 +52,21 @@ static void init_led()
     led_device = device_get_binding(LED_PORT);
 
     /* Set LED pin as output */
-    gpio_pin_configure(led_device, LED1, GPIO_DIR_OUT);
-    gpio_pin_configure(led_device, LED2, GPIO_DIR_OUT);
-    gpio_pin_configure(led_device, LED3, GPIO_DIR_OUT);
-    gpio_pin_configure(led_device, LED4, GPIO_DIR_OUT);
+    gpio_pin_configure(led_device, LED1, GPIO_OUTPUT);
+    gpio_pin_configure(led_device, LED2, GPIO_OUTPUT);
+    gpio_pin_configure(led_device, LED3, GPIO_OUTPUT);
+    gpio_pin_configure(led_device, LED4, GPIO_OUTPUT);
 
 }
 
 static void led_on(char led)
 {
-    gpio_pin_write(led_device, led, 1);
+    gpio_pin_set(led_device, led, 1);
 }
 static void led_off(char led)
 {
-    gpio_pin_write(led_device, led, 0);
+    gpio_pin_set(led_device, led, 0);
+
 }
 
 static void led_on_off(char led, bool on_off)
