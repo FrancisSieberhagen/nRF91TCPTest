@@ -1,6 +1,8 @@
 # nRF91TCPTest
 
-Test BSD library - TCP client connect to server (server/tcp_server)
+Test BSD library - TCP client connect to server (server/tcp_server) 
+
+NB-IoT Network (nbiot.vodacom.za) - Vodacom South Africa - https://www.vodacombusiness.co.za/business/solutions/internet-of-things/narrowband-iot 
 
 # Nordicsemi nRF9160 NB-IoT 
 https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF9160-DK
