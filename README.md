@@ -11,8 +11,11 @@
 ### Application Description
     JSON Data packet {"ActionName":"BSD Test","LED1":false,"LED2":true}
 
+    Client: Connect to server
     Client: Send JSON packet to server
-    Server: Send JSON packet to client
+    Server: Return JSON packet to client on open socket
+    Client: Close socket
+
     Client: Validate ActionName - "ActionName":"BSD Test"
     Client: Toggle nRF9160-DK leds - "LED1":false,"LED2":true
 
