@@ -1,6 +1,6 @@
 # nRF91TCPTest
 
-Test BSD library - TCP client connect to server (server/tcp_server)
+### Test BSD library - TCP client connect to server (server/tcp_server)
     {"ActionName":"BSD Test","LED1":false,"LED2":true}
     Send json packet to server
     Server send json packet back to client
