@@ -1,6 +1,11 @@
 # nRF91TCPTest
 
-Test BSD library - TCP client connect to server (server/tcp_server) 
+Test BSD library - TCP client connect to server (server/tcp_server)
+    {"ActionName":"BSD Test","LED1":false,"LED2":true}
+    Send json packet to server
+    Server send json packet back to client
+    Validate ActionName - "ActionName":"BSD Test"
+    Toggle leds  - "LED1":false,"LED2":true
 
 NB-IoT Network (nbiot.vodacom.za) - Vodacom South Africa - https://www.vodacombusiness.co.za/business/solutions/internet-of-things/narrowband-iot 
 
