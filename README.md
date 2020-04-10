@@ -9,12 +9,12 @@
     https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF9160-DK
 
 ### Application Description
-    {"ActionName":"BSD Test","LED1":false,"LED2":true}
+    JSON Data packet {"ActionName":"BSD Test","LED1":false,"LED2":true}
 
-    Send json packet to server
-    Server send json packet back to client
-    Validate ActionName - "ActionName":"BSD Test"
-    Toggle leds  - "LED1":false,"LED2":true
+    Client: Send JSON packet to server
+    Server: Send JSON packet to client
+    Client: Validate ActionName - "ActionName":"BSD Test"
+    Client: Toggle nRF9160-DK leds - "LED1":false,"LED2":true
 
 ### Change Test Server ip & port in prj.conf  
     CONFIG_SERVER_HOST="139.162.163.251"
