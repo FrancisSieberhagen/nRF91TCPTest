@@ -8,7 +8,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
-#include <fcntl.h> /* Added for the nonblocking socket */
+#include <fcntl.h> 
 
 #include <sys/wait.h>
 
@@ -92,7 +92,6 @@ int main(void)
 
           recsize = recv(ConnectFD, buffer, sizeof buffer, 0);
           if (recsize <= 0) {
-            //printf("Error recv packet: %s\n", strerror(errno));
             break;
           }
 
@@ -111,7 +110,6 @@ int main(void)
         close(SocketFD);
         exit(0);
       } else {
-        //printf("Parent: %d\n", getpid());
 
         close(ConnectFD);
         continue;
