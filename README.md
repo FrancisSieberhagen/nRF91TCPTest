@@ -38,11 +38,11 @@
 
 
 ### nRF Connect
-![alt text](https://raw.githubusercontent.com/fsieberhagen/nRF91TCPTest/master/images/nRFConnect.jpg)
+![alt text](https://raw.githubusercontent.com/FrancisSieberhagen/nRF91TCPTest/master/images/nRFConnect.jpg)
 
 
 ### Server
-![alt text](https://raw.githubusercontent.com/fsieberhagen/nRF91TCPTest/master/images/server.jpg)
+![alt text](https://raw.githubusercontent.com/FrancisSieberhagen/nRF91TCPTest/master/images/server.jpg)
 
 
 
