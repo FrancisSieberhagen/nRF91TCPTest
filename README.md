@@ -16,6 +16,7 @@ https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html
 
 # Change Test Server ip & port in prj.conf  
 CONFIG_SERVER_HOST="x.x.x.x"
+
 CONFIG_SERVER_PORT=42501
 
 
