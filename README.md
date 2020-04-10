@@ -1,6 +1,6 @@
 # nRF91TCPTest
 
-# Test BSD library - TCP client connect to server (server/tcp_server)
+## Test BSD library - TCP client connect to server (server/tcp_server)
 
 ### nRF Connect SDK!
     https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html
