@@ -1,19 +1,22 @@
 # nRF91TCPTest
 
 ### Test BSD library - TCP client connect to server (server/tcp_server)
+
     {"ActionName":"BSD Test","LED1":false,"LED2":true}
+
     Send json packet to server
     Server send json packet back to client
     Validate ActionName - "ActionName":"BSD Test"
     Toggle leds  - "LED1":false,"LED2":true
 
-NB-IoT Network (nbiot.vodacom.za) - Vodacom South Africa - https://www.vodacombusiness.co.za/business/solutions/internet-of-things/narrowband-iot 
+    NB-IoT Network (nbiot.vodacom.za) 
+    Vodacom South Africa - https://www.vodacombusiness.co.za/business/solutions/internet-of-things/narrowband-iot 
 
-# Nordicsemi nRF9160 NB-IoT 
-https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF9160-DK
+### Nordicsemi nRF9160 NB-IoT 
+    https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF9160-DK
 
-# nRF Connect SDK!
-https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html
+### nRF Connect SDK!
+    https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html
 
 ### Change Test Server ip & port in prj.conf  
     CONFIG_SERVER_HOST="139.162.163.251"
