@@ -9,10 +9,10 @@ https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF9160-DK
 https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html
 
 ### Build hex 
-  west build -b nrf9160_pca10090ns
+  $ west build -b nrf9160_pca10090ns
 
 ### Program nRF9160-DK using nrfjprog
-  nrfjprog --program build/zephyr/merged.hex -f nrf91 --chiperase --reset --verify
+  $ nrfjprog --program build/zephyr/merged.hex -f nrf91 --chiperase --reset --verify
 
 # Change Test Server ip & port in prj.conf  
 CONFIG_SERVER_HOST="x.x.x.x"
