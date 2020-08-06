@@ -124,7 +124,7 @@ int at_command(const char *constcmd) {
 
     }
     if (at_state == AT_CMD_OK) {
-        LOG_INF("%s OK", log_strdup(constcmd));
+        LOG_INF("%s OK [%s]", log_strdup(constcmd), log_strdup(imei_buf));
     }
 
     k_sleep(K_MSEC(2000));
@@ -171,6 +171,10 @@ static void init_modem(void)
 
     err = at_command(at_CGDCONT);
     __ASSERT(err == 0, "ERROR: at_command %d %s\n", err, log_strdup(at_CGDCONT));
+
+    err = at_command(at_CIMI);
+    __ASSERT(err == 0, "ERROR: at_command %d %s\n", err, log_strdup(at_CIMI));
+
 
 }
 
